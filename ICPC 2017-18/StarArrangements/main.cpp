@@ -8,7 +8,7 @@ int main() {
     vector<int> s;
     int amountOfValues = 0;
 
-    while(cin >> input || cin.peek() == NULL) {
+    while(cin >> input) {
         s.push_back(input);
         amountOfValues++;
 
